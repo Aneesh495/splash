@@ -1,0 +1,77 @@
+.glass-card {
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(12px);
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+    padding: 1rem;
+  }
+
+.pricing-section {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 4rem 2rem;
+    flex-wrap: wrap;
+    background: rgba(255, 255, 255, 0.03);
+  }
+  
+  .pricing-card {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 1rem;
+    padding: 2rem;
+    width: 300px;
+    color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    text-align: center;
+  }
+  
+  .pricing-card .badge {
+    background: #ffcc80;
+    color: #000;
+    font-size: 0.8rem;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+  }
+  
+  .pricing-card .pricing-image {
+    width: 100%;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .pricing-card h3 {
+    margin: 0.5rem 0;
+    font-size: 1.5rem;
+  }
+  
+  .pricing-card .description {
+    font-size: 0.9rem;
+    color: #ccc;
+  }
+  
+  .pricing-card .price {
+    margin: 1.2rem 0;
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  .subscribe-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.8rem 1.2rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .features {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    font-size: 0.95rem;
+  }  

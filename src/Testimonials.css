@@ -1,0 +1,71 @@
+.glass-card {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  padding: 1rem;
+}
+
+.testimonials-section {
+  width: 100%;
+  max-width: 500px;
+  flex: 1;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 2rem;
+  color: inherit;
+  box-sizing: border-box;
+}
+
+.scrolling-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  animation: scrollUp 160s linear infinite;
+}
+
+@keyframes scrollUp {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(-50%);
+  }
+}
+
+.testimonials-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.testimonials-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.testimonial-card {
+  background-color: rgba(255, 255, 255, 0.05);
+  color: white;
+  border-radius: 16px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(6px);
+}
+
+.testimonial-quote {
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+.testimonial-name {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.testimonial-rating {
+  color: gold;
+  font-size: 1.2rem;
+}

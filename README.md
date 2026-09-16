@@ -1,18 +1,30 @@
-# PricedIn splash
+# Splash (PricedIn)
 
-Marketing landing page for PricedIn: hero, quotes, FAQ, and contact sections
-built with React 19 and Vite. Static-friendly output suitable for CDN deploy.
+Static-first marketing site: React 19, Vite 5, TypeScript. Built for CDN deploy (`npm run build` → hashed assets in `dist/`).
 
-## Architecture
+## Front-end architecture
 
 ```mermaid
-flowchart LR
-  Vite[Vite dev server] --> App[src/ React tree]
-  App --> Sections[hero, FAQ, testimonials, contact]
-  App --> Router[react-router-dom routes]
+flowchart TB
+  Entry[main.tsx] --> Router[react-router-dom]
+  Router --> Hero[hero.tsx]
+  Router --> Quotes[quotes / FeaturedQuotes]
+  Router --> FAQ[FAQ.tsx]
+  Router --> Contact[ContactForm.tsx]
+  Router --> Testimonials[FeaturedTestimonials.tsx]
 ```
 
-## Development
+MUI icons where needed; no server runtime in production.
+
+## Engineering
+
+| Topic | Approach |
+| --- | --- |
+| Bundling | Vite + `@vitejs/plugin-react`, TS project references |
+| Lint | ESLint 9 flat config |
+| Preview | `npm run preview` serves production build locally |
+
+## Commands
 
 ```bash
 npm install
@@ -21,13 +33,13 @@ npm run build
 npm run preview
 ```
 
-## Structure
+## Layout
 
 | Path | Role |
 | --- | --- |
-| `src/hero.tsx` | Above-the-fold content |
+| `src/hero.tsx` | Above-the-fold |
 | `src/FAQ.tsx` | Collapsible FAQ |
-| `src/ContactForm.tsx` | Lead capture form UI |
+| `src/ContactForm.tsx` | Lead form UI |
 | `public/` | Static assets |
 
 ## License

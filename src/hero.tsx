@@ -102,7 +102,7 @@ const Hero: React.FC<HeroProps> = ({ darkMode }) => {
             }}
           >
             Unlock lightning-fast due diligence, AI-ranked trade ideas, and
-            one-click market clarity. PricedIn is where speed meets signal — and
+            one-click market clarity. PricedIn is where speed meets signal  -  and
             you stay ahead of the curve.
           </Typography>
         </motion.div>

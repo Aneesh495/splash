@@ -134,7 +134,7 @@ const testimonials = [
     },
     {
       name: "Ted Lasso",
-      quote: "Believe in your trades—and PricedIn.",
+      quote: "Believe in your trades - and PricedIn.",
       stars: "★★★★★",
       level: "Expert",
     },
@@ -200,7 +200,7 @@ const testimonials = [
     },
     {
       name: "Tyler Durden",
-      quote: "First rule of investing—use Priced In.",
+      quote: "First rule of investing - use Priced In.",
       stars: "★★★★★",
       level: "Expert",
     },

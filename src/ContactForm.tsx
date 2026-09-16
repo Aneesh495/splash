@@ -62,7 +62,7 @@ const ContactForm: React.FC = () => {
           mx: "auto",
         }}
       >
-        Have questions, feedback, or ideas? We’d love to hear from you. Drop us a message below — we’re faster than a high-frequency trade!
+        Have questions, feedback, or ideas? We’d love to hear from you. Drop us a message below  -  we’re faster than a high-frequency trade!
       </Typography>
 
       {/* Form */}

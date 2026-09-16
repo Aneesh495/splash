@@ -14,17 +14,17 @@ const faqData = [
   {
     question: "What is PricedIn and why should I care?",
     answer:
-      "Think of PricedIn as your personal trading assistant — minus the coffee addiction. We combine AI-powered insights, clean UX, and real-time due diligence tools to help traders like you make faster, smarter, sharper decisions. Whether you're a weekend warrior or full-time investor, you'll find an edge with us.",
+      "Think of PricedIn as your personal trading assistant  -  minus the coffee addiction. We combine AI-powered insights, clean UX, and real-time due diligence tools to help traders like you make faster, smarter, sharper decisions. Whether you're a weekend warrior or full-time investor, you'll find an edge with us.",
   },
   {
     question: "How is PricedIn different from other trading platforms?",
     answer:
-      "We’re not just a dashboard of charts and buzzwords. PricedIn distills massive market noise into bite-sized, actionable signals — like having a quant analyst whispering in your ear (but less creepy). Plus, we focus on clarity, not clutter. Clean design meets clean data.",
+      "We’re not just a dashboard of charts and buzzwords. PricedIn distills massive market noise into bite-sized, actionable signals  -  like having a quant analyst whispering in your ear (but less creepy). Plus, we focus on clarity, not clutter. Clean design meets clean data.",
   },
   {
     question: "Can a total beginner use PricedIn?",
     answer:
-      "Absolutely. We believe powerful tools should be user-friendly. No PhD in finance required. If you can open a meme stock chart, you can use PricedIn. And if you *do* have a PhD — awesome, our features will still impress you.",
+      "Absolutely. We believe powerful tools should be user-friendly. No PhD in finance required. If you can open a meme stock chart, you can use PricedIn. And if you *do* have a PhD  -  awesome, our features will still impress you.",
   },
   {
     question: "Is my data safe with PricedIn?",
@@ -34,7 +34,7 @@ const faqData = [
   {
     question: "What if I have zero time to research trades?",
     answer:
-      "That's exactly why we exist. PricedIn surfaces the key details and red flags so you can evaluate trades in minutes — not hours. Think of it as SparkNotes for the stock market, but actually useful.",
+      "That's exactly why we exist. PricedIn surfaces the key details and red flags so you can evaluate trades in minutes  -  not hours. Think of it as SparkNotes for the stock market, but actually useful.",
   },
   {
     question: "How much does PricedIn cost?",
@@ -49,7 +49,7 @@ const faqData = [
   {
     question: "How do I get started?",
     answer:
-      "Just hit that big shiny 'Get Started' button, sign up in 60 seconds, and boom — you're in. No jargon. No contracts. No catch. Just smarter trading, instantly.",
+      "Just hit that big shiny 'Get Started' button, sign up in 60 seconds, and boom  -  you're in. No jargon. No contracts. No catch. Just smarter trading, instantly.",
   },
 ];
 const FAQSection: React.FC = () => {

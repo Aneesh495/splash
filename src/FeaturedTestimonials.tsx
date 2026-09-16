@@ -68,7 +68,7 @@ const FeaturedTestimonials: React.FC = () => {
                   "{featured[index].quote}"
                 </Typography>
                 <Typography variant="subtitle1" fontWeight="bold">
-                  — {featured[index].name}
+                   -  {featured[index].name}
                 </Typography>
               </Paper>
             </motion.div>

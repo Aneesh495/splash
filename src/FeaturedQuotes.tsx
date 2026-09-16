@@ -43,7 +43,7 @@ const featured = [
   { name: "Isaac Newton", quote: "What goes up... must be analyzed. 🍎📊" },
   {
     name: "Michael Jordan",
-    quote: "I never missed a trade — thanks to PricedIn. 🏀📈",
+    quote: "I never missed a trade  -  thanks to PricedIn. 🏀📈",
   },
   {
     name: "Shakespeare",
@@ -54,7 +54,7 @@ const featured = [
   { name: "Barbie", quote: "This trader life? It's fantastic. 💅📊" },
   {
     name: "Stephen Hawking",
-    quote: "Black holes are unpredictable — PricedIn isn’t. 🌌📉",
+    quote: "Black holes are unpredictable  -  PricedIn isn’t. 🌌📉",
   },
   { name: "Michael Phelps", quote: "Dive into trades with clarity. 🏊‍♂️📈" },
   {
@@ -94,7 +94,7 @@ const featured = [
   },
   {
     name: "Mark Cuban",
-    quote: "This isn’t just a tool — it’s a cheat code. 💼📈",
+    quote: "This isn’t just a tool  -  it’s a cheat code. 💼📈",
   },
   {
     name: "Rosa Parks",
@@ -107,9 +107,9 @@ const featured = [
   { name: "Mona Lisa", quote: "Smiling because I’m up 40% this quarter. 😏💰" },
   {
     name: "Gandhi",
-    quote: "Discipline and data — the dual path of the peaceful trader. ☮️📉",
+    quote: "Discipline and data  -  the dual path of the peaceful trader. ☮️📉",
   },
-  { name: "Jay-Z", quote: "I’m not a businessman — I’m a business, man. 📈🎤" },
+  { name: "Jay-Z", quote: "I’m not a businessman  -  I’m a business, man. 📈🎤" },
   {
     name: "Neil Armstrong",
     quote: "One small step for a trader, one giant leap with PricedIn. 🌕📉",
@@ -118,7 +118,7 @@ const featured = [
     name: "Drake",
     quote: "Started from the bottom, now my trades are here. 🎵📊",
   },
-  { name: "Plato", quote: "Know thyself — and thy risk profile. 🧠📉" },
+  { name: "Plato", quote: "Know thyself  -  and thy risk profile. 🧠📉" },
   { name: "Spider-Man", quote: "With great power comes great ROI. 🕸️📈" },
   { name: "Taylor Swift", quote: "Another trade. Another era. 📈✨" },
   {
@@ -127,7 +127,7 @@ const featured = [
   },
   {
     name: "Simone Biles",
-    quote: "I stick every landing — and every breakout. 🤸‍♀️📈",
+    quote: "I stick every landing  -  and every breakout. 🤸‍♀️📈",
   },
   { name: "Oprah", quote: "I trust my gut... and PricedIn. 🧘📉" },
   { name: "Tony Stark", quote: "I built a suit. They built the signal. 🤖📊" },
